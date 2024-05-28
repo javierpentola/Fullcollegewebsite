@@ -1,0 +1,65 @@
+Estructura:
+
+/root
+│   .htaccess
+│   index.php
+│
+├── /assets
+│   ├── /css
+│   │   └── styles.css
+│   ├── /images
+│   │   └── logo.png
+│   ├── /js
+│       └── scripts.js
+│
+├── /includes
+│   ├── footer.php
+│   ├── header.php
+│   ├── navbar.php
+│   └── sidebar.php
+│
+├── /pages
+│   ├── /activity_flow
+│   │   ├── check_uploaded_activity.php
+│   │   ├── index.php
+│   │   ├── upload_activity.php
+│   ├── /additional_info
+│   │   └── university_documentation.php
+│   ├── /calendar
+│   │   └── index.php
+│   ├── /contact
+│   │   ├── email.php
+│   │   └── phone.php
+│   ├── /courses
+│   │   └── index.php
+│   ├── /grades
+│   │   └── index.php
+│   ├── /home
+│   │   ├── announcements_events.php
+│   │   ├── featured_news.php
+│   │   ├── index.php
+│   │   └── quick_access.php
+│   ├── /library
+│   │   ├── catalog.php
+│   │   ├── guides.php
+│   │   ├── resources.php
+│   │   └── services.php
+│   ├── /secretary
+│   │   ├── access_documentation.php
+│   │   ├── administrative_requests.php
+│   │   └── documentation.php
+│   ├── /support
+│   │   └── chat.php
+│   ├── /tools
+│   │   ├── collaboration.php
+│   │   ├── forums.php
+│   │   ├── index.php
+│   │   ├── schedule_planner.php
+│   │   ├── simulators.php
+│   │   └── virtual_library.php
+│   ├── /user
+│   │   ├── additional_info.php
+│   │   ├── basic_info.php
+│   │   ├── contact_info.php
+│   │   ├── settings.php
+│   │   └── work_info.php
