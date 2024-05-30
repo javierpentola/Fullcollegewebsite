@@ -7,10 +7,10 @@
         <li style="margin: 0 10px;"><a href="/College%20campus/pages/calendar/index.php" style="color: white; text-decoration: none; padding: 5px 10px; border: 2px solid #000000; background-color: #004080;">Calendar</a></li>
         <li style="margin: 0 10px;"><a href="/College%20campus/pages/grades/index.php" style="color: white; text-decoration: none; padding: 5px 10px; border: 2px solid #000000; background-color: #004080;">Grades</a></li>
         <li style="margin: 0 10px;"><a href="/College%20campus/pages/tools/index.php" style="color: white; text-decoration: none; padding: 5px 10px; border: 2px solid #000000; background-color: #004080;">Tools</a></li>
-        <li style="margin: 0 10px;"><a href="/College%20campus/pages/secretary/index.php" style="color: white; text-decoration: none; padding: 5px 10px; border: 2px solid #000000; background-color: #004080;">Secretary</a></li>
+        <li style="margin: 0 10px;"><a href="/College%20campus/pages/secretary/documentation.php" style="color: white; text-decoration: none; padding: 5px 10px; border: 2px solid #000000; background-color: #004080;">Secretary</a></li>
         <li style="margin: 0 10px;"><a href="/College%20campus/pages/additional_info/university_documentation.php" style="color: white; text-decoration: none; padding: 5px 10px; border: 2px solid #000000; background-color: #004080;">Info</a></li>
-        <li style="margin: 0 10px;"><a href="/College%20campus/pages/contact/index.php" style="color: white; text-decoration: none; padding: 5px 10px; border: 2px solid #000000; background-color: #004080;">Contact</a></li>
-        <li style="margin: 0 10px;"><a href="/College%20campus/pages/library/index.php" style="color: white; text-decoration: none; padding: 5px 10px; border: 2px solid #000000; background-color: #004080;">Library</a></li>
+        <li style="margin: 0 10px;"><a href="/College%20campus/pages/contact/email.php" style="color: white; text-decoration: none; padding: 5px 10px; border: 2px solid #000000; background-color: #004080;">Contact</a></li>
+        <li style="margin: 0 10px;"><a href="/College%20campus/pages/library/services.php" style="color: white; text-decoration: none; padding: 5px 10px; border: 2px solid #000000; background-color: #004080;">Library</a></li>
         <li style="margin: 0 10px;"><a href="/College%20campus/pages/support/chat.php" style="color: white; text-decoration: none; padding: 5px 10px; border: 2px solid #000000; background-color: #004080;">Support</a></li>
     </ul>
 </nav>
