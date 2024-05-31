@@ -70,7 +70,7 @@
             </div>
             <div class="chat-input">
                 <input type="text" id="chat-input" placeholder="Type your message here...">
-                <button onclick="sendMessage()">Send</button>
+                <button onclick="sendMessage()">Send.</button>
             </div>
         </div>
     </div>
