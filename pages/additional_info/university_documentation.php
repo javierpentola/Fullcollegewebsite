@@ -47,7 +47,7 @@
             <ul class="document-list">
                 <li><a href="#" class="button">University Charter</a></li>
                 <li><a href="#" class="button">Code of Conduct</a></li>
-                <li><a href="#" class="button">Academic Policies</a></li>
+                <li><a href="#" class="button">Academic Policies.</a></li>
                 <li><a href="#" class="button">Library Rules</a></li>
                 <li><a href="#" class="button">Safety Guidelines</a></li>
                 <li><a href="#" class="button">Financial Regulations</a></li>
