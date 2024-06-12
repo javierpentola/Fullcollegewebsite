@@ -8,8 +8,19 @@
     <div class="window-body">
         <h1 style="text-align: center;">Welcome to the University</h1>
         <p style="text-align: center;">This is the home page.</p>
+        
         <?php include('pages/home/featured_news.php'); ?>
         <?php include('pages/home/quick_access.php'); ?>
+
+        <!-- Incluye el nuevo componente de rotación de noticias -->
+        <?php include('pages/home/rotating_news.php'); ?>
+        
+        <div style="text-align: center; margin: 20px 0;">
+            <a href="pages/courses/index.php" style="margin: 0 10px; text-decoration: none;">Courses</a>
+            <a href="pages/calendar/index.php" style="margin: 0 10px; text-decoration: none;">Calendar</a>
+            <a href="pages/grades/index.php" style="margin: 0 10px; text-decoration: none;">Grades</a>
+        </div>
+
         <?php include('pages/home/announcements_events.php'); ?>
     </div>
 </main>

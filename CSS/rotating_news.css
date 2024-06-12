@@ -1,0 +1,92 @@
+/* C:\xampp\htdocs\College campus\CSS\rotating_news.css */
+
+.main-content {
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    margin: 20px auto;
+    overflow: visible; /* Cambiado de hidden a visible para permitir expansión */
+    width: 80%;
+}
+
+.concept {
+    position: relative;
+    padding: 1em 2em;
+    margin: 0; /* Margen inicial 0 */
+    overflow: hidden;
+    border: 1px solid #000;
+    border-radius: 10px;
+    background: #f5f5f5;
+    transition: max-height 0.5s ease-in-out, margin 0.5s ease-in-out;
+    width: 100%;
+    max-height: 0;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.concept.active {
+    max-height: 500px; /* Ajusta este valor según el tamaño de tu contenido */
+    opacity: 1;
+    visibility: visible;
+    margin: 10px 0; /* Ajusta el margen inferior al expandir */
+}
+
+.concept h1 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 0.5em;
+}
+
+.hover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.concept:hover .hover {
+    opacity: 0.2;
+}
+
+.concept-one {
+    background: url("https://meowlivia.s3.us-east-2.amazonaws.com/codepen/background/desert.jpg") no-repeat center center / cover;
+}
+
+.concept-two {
+    background: url("https://meowlivia.s3.us-east-2.amazonaws.com/codepen/background/forest.jpg") no-repeat center center / cover;
+}
+
+.concept-three {
+    background: url("https://meowlivia.s3.us-east-2.amazonaws.com/codepen/background/canyon.jpg") no-repeat center center / cover;
+}
+
+.concept-four {
+    background: url("https://meowlivia.s3.us-east-2.amazonaws.com/codepen/background/glacier.jpg") no-repeat center center / cover;
+}
+
+.concept-five {
+    background: url("https://meowlivia.s3.us-east-2.amazonaws.com/codepen/background/mountains.jpg") no-repeat center center / cover;
+}
+
+.concept-six {
+    background: url("https://meowlivia.s3.us-east-2.amazonaws.com/codepen/background/beach.jpg") no-repeat center center / cover;
+}
+
+@keyframes slideUpDown {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.concept.active {
+    animation: slideUpDown 0.5s ease-in-out;
+}
