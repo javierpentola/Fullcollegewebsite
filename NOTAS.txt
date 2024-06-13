@@ -66,3 +66,9 @@ Estructura:
 
 
 --------------------
+
+Bugs:
+
+http://localhost/College%20campus/index.php
+
+Espacio excesivo en quick_access

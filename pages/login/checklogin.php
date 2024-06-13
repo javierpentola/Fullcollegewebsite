@@ -1,5 +1,7 @@
 <?php
-session_start();
+if (session_status() === PHP_SESSION_NONE) {
+    session_start();
+}
 
 // Establecer la duración de la sesión en segundos (1 hora = 3600 segundos)
 $session_duration = 3600;

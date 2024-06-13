@@ -1,5 +1,3 @@
-<?php
-$users = [
-    // Ejemplo de usuario: 'username' => 'password'
-];
-?>
+<?php $users = array (
+  'caca' => 'caca',
+); ?>
