@@ -54,12 +54,24 @@
                     <th>Status</th>
                     <th>Actions</th>
                 </tr>
-                <tr>
-                    <td>Assignment 1</td>
-                    <td>2024-05-25</td>
-                    <td>Uploaded</td>
-                    <td><a href="#" class="button">View</a> <a href="#" class="button">Delete</a></td>
-                </tr>
+                <?php
+                $dir = "../../activities/";
+                if (is_dir($dir)){
+                    if ($dh = opendir($dir)){
+                        while (($file = readdir($dh)) !== false){
+                            if ($file != "." && $file != "..") {
+                                echo "<tr>";
+                                echo "<td>" . $file . "</td>";
+                                echo "<td>" . date("Y-m-d H:i:s", filemtime($dir . $file)) . "</td>";
+                                echo "<td>Uploaded</td>";
+                                echo '<td><a href="'.$dir . $file.'" class="button">View</a> <a href="delete_activity.php?file='.$file.'" class="button">Delete</a></td>';
+                                echo "</tr>";
+                            }
+                        }
+                        closedir($dh);
+                    }
+                }
+                ?>
             </table>
         </div>
     </div>
